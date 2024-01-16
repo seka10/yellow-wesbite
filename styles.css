@@ -1,0 +1,89 @@
+    body::before {
+      content: url("assets/images/cursor.ico");
+      position: absolute;
+      visibility: hidden;
+  }
+
+  body {
+      background-color: hsl(47, 88%, 63%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Figtree', serif;
+      
+  }
+
+  .container {
+      border-radius: 15px;
+      background-color: hsl(0, 0%, 100%);
+      width: 280px;
+      height: auto;
+      padding: 20px;
+      box-shadow: 7px 7px 0px 0px rgba(0,0,0,100);
+  }
+  
+  .container img {
+      width: 100%;
+      border-radius: 15px;
+  }
+
+  .btn {
+      background-color:hsl(47, 88%, 63%);
+      display: inline-block;
+      padding: 8px;
+      margin-top: 8px; 
+      margin-bottom: 2px;
+      border-radius: 5px;
+      font-size: 12px;
+      width: 60px;
+      text-align: center;              
+  }
+
+  .data {
+      font-size: 12px;
+  }
+
+  .link, .link:visited {
+      color: black;
+      font-weight: 800;
+      font-size: 20px;
+      text-decoration: none;
+  }
+
+  .link:hover {
+      cursor: url("assets/images/cursor.ico"), auto;
+      color: hsl(47, 88%, 63%);
+  }
+
+  .content {
+      font-family: sans-serif;
+      font-size: 14px;
+      color:hsl(0, 0%, 50%);
+      margin-bottom: 20px;
+  }
+
+  .autor {
+      display: flex;
+      align-items: center;
+  }
+
+  .autor img {
+      width: 40px;
+      height: 40px;
+  }
+
+  .name-autor {
+      margin-left: 5px;
+      font-weight: 800;
+      font-size: 12px;
+      text-decoration: none;
+
+  }
+  .name-autor:hover {
+    cursor: url("assets/images/cursor.ico"), auto;
+    color: hsl(47, 88%, 63%);
+    text-decoration:none ;}
+
+  .my{border-radius: 50%;}
